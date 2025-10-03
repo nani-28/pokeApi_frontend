@@ -1,6 +1,6 @@
 # Consulta y visualización de API externa
 
-Este proyecto consume la API pública llamada "PokeAPI" desde el frontend con HTML, CSS y JavaScript.
+Este proyecto consume la API pública llamada "PokéAPI" desde el frontend con HTML, CSS y JavaScript.
 Se hace una petición GET para obtener información de 12 pokémon y se muestran en tarjetas con su nombre, imagen, experiencia base y altura (Pokédex).
 
 ---
@@ -11,31 +11,16 @@ La Pokéapi es una API RESTful que proporciona acceso a una gran cantidad de inf
 
 ---
 
-## ⚙️ Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto
 
    **1. Clona este repositorio:**
    ```sh
-   git clone <url-del-repo>
-   cd Fastify-PostgreSQL
+   git clone https://github.com/nani-28/pokeApi_frontend.git
    ```
 
-   **2. Configura las variables de entorno:**
-   ```sh
-   cp backend/.env.example backend/.env
-   ```
+   **2. Abrir el archivo index.html en el navegador:**
+   - Directamente con doble clic, o
 
-   Edita el archivo backend/.env con tus credenciales de PostgreSQL.
+   - Usando un servidor local (recomendado):
 
-
-**3. Construye y levanta los servicios con Docker Compose:**
-   ```sh
-   docker-compose up --build
-   ```
-
-**4. Accede al frontend en tu navegador:**
-http://localhost:8080
-
-**5. El backend (API REST) está disponible en:**
-http://localhost:3000/productos
-
----
+Verás 12 tarjetas de Pokémon con su imagen, nombre, experiencia base y altura.
